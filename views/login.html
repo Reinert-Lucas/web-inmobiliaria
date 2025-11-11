@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <section class="inicio" id="inicio">
+      <video autoplay muted loop class="video-bg">
+        <source src="../imgs/fondo.mp4" type="video/mp4" />
+      </video>
+      <section class="datos login-section">
+        <form class="login-form" id="login-form">
+          <h1>Login</h1>
+          <input
+            type="text"
+            name="user"
+            id="user"
+            placeholder="Usuario"
+            required
+          />
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Contraseña"
+            required
+          />
+          <span class="msg" id="msg"></span>
+          <input type="submit" value="Iniciar" class="sbmt" />
+        </form>
+      </section>
+    </section>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
